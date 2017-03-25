@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MimbarSoft</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_rating">Rate Us </string>
+    <string name="title_activity_profile2">ProfileActivity2</string>
+    <!-- Content Strings -->
+    <string name="web_development">We build smart web applications using modern web technologies. We are concerned about web efficiency and sclability of database</string>
+    <string name="sqa">We also assure the quality of your application by manual and automative approachs</string>
+    <string name="mobile_development">We make impressive and reliable applications for both Android and IOS aplatforms</string>
+    <!--Contact us section strings-->
+    <string name="company_address">54/A/2, Tenari Mor\nJigatola, Dhaka-1209</string>
+    <string name="phone_numbers">+8801912944718\n+8801675845437</string>
+    <string name="mail_address">contact@mimbarsoft.com</string>
+    <string name="title_activity_sending_mail">SendingMailActivity</string>
+    <!--sendign mail activity-->
+    <string name="let_us_know">Let Us Know   </string>
+</resources>

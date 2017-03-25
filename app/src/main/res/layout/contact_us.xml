@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/ThemeOverlay.ContactUs.LinearLayout"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mimbarsoft"
+        android:text="MIMBARSOFT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:text="@string/company_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="@string/phone_numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="@string/mail_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <ImageButton
+            android:id="@+id/image_button_facebook"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_nav_facebook"
+            android:background="@drawable/round_shape"
+            android:onClick="toFacebook"/>
+        <ImageButton
+            android:id="@+id/image_button_twitter"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/round_shape"
+            android:src="@drawable/icon_nav_twitter"
+            android:onClick="toTwitter"/>
+        <ImageButton
+            android:id="@+id/image_button_google"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/round_shape"
+            android:src="@drawable/icon_nav_google"
+            android:onClick="toGoogle"/>
+    </LinearLayout>
+</LinearLayout>

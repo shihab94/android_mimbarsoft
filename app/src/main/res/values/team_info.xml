@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emp1_name">Nayeem Shahadat</string>
+    <string name="emp1_designation">SQA Engineer</string>
+    <string name="emp1_description">Very good sqa engineer.Nayem has 3 years experience</string>
+    <string name="emp2_name">Mohammad Rahamatullah</string>
+    <string name="emp2_designation">SQA Engineer and Designer</string>
+    <string name="emp2_description">Very good sqa engineer.Rahamat has 3 years experience</string>
+    <string name="emp3_name">Zahangir Alam Pial</string>
+    <string name="emp3_designation">Code Craftsman</string>
+    <string name="emp3_description">Zahangir Alam is a very good PHP programmer.He has 5 years experience</string>
+    <string name="emp4_name">Shihab Ahmed</string>
+    <string name="emp4_designation">Android Developer</string>
+    <string name="emp4_description">Very good sqa engineer.Nayem has 3 years experience</string>
+    <string name="emp5_name">S.M. Al-amin</string>
+    <string name="emp5_designation">SQA Engineer and Designer</string>
+    <string name="emp5_description">Very good sqa engineer.Nayem has 3 years experience</string>
+    <string name="emp6_name">Ishraf Islam</string>
+    <string name="emp6_designation">Software Engineer</string>
+    <string name="emp6_description">Very good engineer.Nayem has 3 years experience</string>
+</resources>
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Scrollview doesn't work with coordinator layout so we have to use NestedScrollview-->
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mimbarsoft.mimbarsoft.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content">
+        <!--Services heading-->
+        <TextView
+            android:text=" SERVICES  "
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/heading_services"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            android:textColor="#FFFF"
+            android:fontFamily="serif"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true" />
+
+        <!--including services layout-->
+        <include layout="@layout/services"
+            android:id="@+id/services_layout"/>
+
+        <!--Latest Work Heading-->
+        <TextView
+            android:id="@+id/latest_work"
+            android:text="  LATEST WORK  "
+            android:background="@color/colorAccent"
+            android:textColor="#FFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+
+        <!--Slider of latest work-->
+        <include layout="@layout/latest_work_slider"
+            android:id="@+id/latest_work_slider_layout"/>
+
+        <!--Amazing Team Heading-->
+        <TextView
+            android:id="@+id/heading_team"
+            android:text="  AMAZING TEAM  "
+            android:background="@color/colorAccent"
+            android:textColor="#FFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+
+        <!--including Amazing Team layout-->
+        <include layout="@layout/amazing_team" />
+
+        <!--Amazing Team Heading-->
+        <TextView
+            android:id="@+id/heading_cotact"
+            android:text="  COTACT US  "
+            android:textColor="#FFFF"
+            android:background="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+
+        <!--including contact us layout-->
+        <include layout="@layout/contact_us"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
