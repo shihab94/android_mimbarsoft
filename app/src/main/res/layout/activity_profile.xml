@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/emp_image"
         android:layout_toRightOf="@+id/emp_image"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="50dp"
         android:layout_marginLeft="15dp" />
     <TextView
         android:id="@+id/emp_designation"

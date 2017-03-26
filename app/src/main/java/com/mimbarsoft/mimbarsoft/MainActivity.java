@@ -128,6 +128,7 @@ public class MainActivity extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_rating) {
             Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://play.google.com/store?hl=en"));
+            startActivity(intent);
             return true;
         }
 

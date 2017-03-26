@@ -12,10 +12,12 @@ public class ProfileActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+
         Bundle bundle = getIntent().getExtras();
         String id = bundle.getString("name");
         int width = bundle.getInt("width");
         int height = bundle.getInt("height");
+
         ImageView empImage = (ImageView) findViewById(R.id.emp_image);
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
@@ -23,9 +25,11 @@ public class ProfileActivity extends AppCompatActivity {
         int sereenHeight = (displayMetrics.heightPixels/3);
         empImage.getLayoutParams().width = screenWidth;
         empImage.getLayoutParams().height = sereenHeight;
+
         TextView empName = (TextView) findViewById(R.id.emp_name);
         TextView empDesignation = (TextView) findViewById(R.id.emp_designation);
         TextView empDescription = (TextView) findViewById(R.id.emp_description);
+
         if(id.equals("imageView_nayeem")){
             empImage.setImageResource(R.drawable.nayeem);
             empName.setText(R.string.emp1_name);
